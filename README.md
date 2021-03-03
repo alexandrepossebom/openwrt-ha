@@ -8,7 +8,7 @@ sensor.wan_rx
 
 Traffic in MBps
 
-To use you need to cross compile it to run in openwrt mips:
+To use you can download the binary in releases or you need to cross compile it to run in openwrt mips:
 
 ```
 GOOS=linux GOARCH=mips GOMIPS=softfloat go build -ldflags="-s -w"
